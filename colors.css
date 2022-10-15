@@ -14,6 +14,7 @@
     --green:#5FEF6D;
     --yellow:#FFC52D;
     --background-color: #150043;
+    scroll-behavior: smooth;
     }
 body{
     margin: 0;
@@ -44,6 +45,7 @@ img{
     width: 100%;
     top: 0%;
     overflow: visible;
+    background: #150043;
     
   
 }
@@ -61,29 +63,41 @@ header div h2{
     padding-top: 20px;
     font-size: 35px;
     color: var(--turquoise-blue);
-    font-weight: 1000;
+    font-weight: bold;
    
 }
-.nav-links li{
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #150043;
+    padding-right: 30px;
+  }
+  nav .container {
+    height: 20px;
+    margin-top: 50px;
+  }
+  nav .container ul li {
     display: inline-block;
-    padding: 22px;
+  }
+  nav .container ul li a {
     text-decoration: none;
-    
-}
-.nav-links{
-    padding-right: 20px;
-    cursor: pointer;
-}
-.nav-links li a{
-    list-style-type: none;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 600;
-    color:white;
-    
-    
-}
-#navbar-links .active,.btns:hover{
+    padding: 10px 20px;
+    color: #ffffff;
+  }
+  nav .container ul li a:hover {
+    padding-bottom: 10px;
+    color: var(--cornflower-blue);
+  }
+nav .container ul li.active a {
+    padding-bottom: 10px;
+    color: var(--cornflower-blue);
+    transition: 0.4s;
+    border-bottom: 5px solid  var(--cornflower-blue);
+    border-radius: 2px solid var(--cornflower-blue);
+  }
+
+.btns:hover{
     padding-bottom: 10px;
     color: var(--cornflower-blue);
     transition: 0.4s;
@@ -113,20 +127,20 @@ header div h2{
     */
     
 }
-span{
+.title_name{
     color: var(--yellow);
     font-weight: bold;
     font-size: 50px;
 }
-span:hover{
+.title_name:hover{
     transition: .4s;
     transform: scale(2);
     font-size: 52px;
 }
 .btn-cv{
     position: absolute;
-    top: 75%;
-    left: 12%;
+    top: 65%;
+    left: 8%;
     padding: 14px;
     font-size: 16px;
     border-radius: 5px;
@@ -218,6 +232,7 @@ span:hover{
     box-shadow:0 3px 10px var(--turquoise-blue);
     padding-left: 15px;
     margin-bottom: 45px;
+    text-align: left;
     
 }
 .skill2{
@@ -231,6 +246,7 @@ span:hover{
     box-shadow:0 3px 10px var(--electric-violet);
     margin-bottom: 45px;
     padding-left: 15px;
+    text-align: left;
 }
 .skill3{
     border: 3px solid  var(--green);
@@ -243,6 +259,7 @@ span:hover{
     box-shadow:0 3px 10px var(--green);
     padding-left: 15px;
     margin-bottom: 45px;
+    text-align: left;
    }
 .skill4{
     border: 3px solid var(--pink);
@@ -255,22 +272,24 @@ span:hover{
     box-shadow:0 3px 10px var(--pink);
     padding-left: 15px;
     margin-bottom: 45px;
+    text-align: left;
     
 }
 .lan1{
     font-weight:600;
     color: #21132c;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 15px;
     padding-left: 10px;
+    text-align: left;
 }
 .lan2{
     padding-left: 10px;
     font-weight:600;
     color: #21132c;
     letter-spacing: 1px;
-   
-    font-size: 10px;
+    text-align: left;
+    font-size: 15px;
 
 }
 /*.blank{
