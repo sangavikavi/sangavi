@@ -396,7 +396,7 @@ span:hover{
     text-align: center;
 }
 .photo2{
-    background-image: url(../img/Grocery.png);
+    background-image: url(./img/Grocery.png);
     height: 270px;
     width: 200px;
     position: relative;
@@ -445,7 +445,7 @@ span:hover{
     font-size: 25px;
 }
 .photo3{
-    background-image:url(../img/portfolio-img.webp);
+    background-image:url(./img/portfolio-img.webp);
     height: 270px;
     width: 200px;
     position: relative;
@@ -486,7 +486,7 @@ span:hover{
   
 }
 .photo4{
-    background-image:url(../img/calculator-photo.png);
+    background-image:url(./img/calculator-photo.png);
     height: 270px;
     width: 200px;
     position: relative;
