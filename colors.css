@@ -349,7 +349,7 @@ span:hover{
     text-align: center;
 }
 .photo1{
-    background-image: url(../img/Todo.jpg);
+    background-image: url(./img/Todo.jpg);
     height: 270px;
     width: 200px;
     position: relative;
