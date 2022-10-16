@@ -179,6 +179,7 @@ nav .container ul li.active a {
     transform: rotate(-20deg);
     filter: blur(26px);
     z-index: -1;
+    opacity:0.6;
 }
 .Rect1{
     background-color:var(--blue-light);
@@ -192,6 +193,7 @@ nav .container ul li.active a {
     transform: rotate(-20deg);
     filter: blur(26px);
     z-index: -1;
+    opacity:0.6;
     
     
 
@@ -209,6 +211,7 @@ nav .container ul li.active a {
     filter: blur(26px);
     overflow: hidden;
     z-index: -1;
+    opacity:0.6;
 
 }
 .skills-content{
