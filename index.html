@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sangavi</title>
     <link rel = "stylesheet" href="colors.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <script type="text/javascript" src = "code.js"></script>
 </head>
@@ -18,30 +19,32 @@
             <h2>SANGAVI</h2>
             <div class = "spacer"></div>
        
-            <div id = "navbar-links">
-            <ul class = "nav-links">
-                <li><a href = "#home" class = "btns">Home</a></li>
-                <li><a href = "#skills"  class ="btns ">Skills</a></li>
-                <li><a href = "#projects"  class = "btns" name = "projects">Projects</a></li>
-                <li><a href = "#about" class = "btns">About</a></li>
-            </ul>
-            </div>
+            <nav>
+                <div class="container">
+                  <ul>
+                    <li class="home active"><a href="#home">Home</a></li>
+                    <li class="skills"><a href="#skills">Skills</a></li>
+                    <li class="projects"><a href="#projects">Projects</a></li>
+                    <li class="about"><a href="#about">About</a></li>
+                  </ul>
+                </div>
+              </nav>
            
         </div>
     </header>
-    <section>
+    <section id="home">
         <div class = "Rect"></div>
         <div class = "Rect1"></div>
         <div class = "Rect2"></div>
-        <p class = "content">Hi! I am <span>SANGAVI</span><br><br>UI Designer and Web Developer</p>
+        <p class = "content">Hi! I am <span class="title_name">SANGAVI</span><br><br>UI/UX Designer and Web, Android Developer</p>
         <button class="btn-cv"><a class = "download" href="../img/Sangavi(Resume-1).pdf" download>Download CV</a></button>
         
    
        
     </section>
-    </div>
-    <div id = "skills">
-    <section>
+
+    <section id = "skills">
+    <div>
         <div class = "skills-content">
             <div class = "Rect3"></div>
             <div class = "Rect4"></div>
@@ -53,10 +56,10 @@
             <h3 class="blank"></h3>
         </div>
      
-    </section>
     </div>
-    <div id = "projects" name = "projects">
-    <section>
+    </section>
+    <section id = "projects" name = "projects">
+    <div>
         <div>
             <div class = "project1">
                 <div class ="photo1">
@@ -85,10 +88,10 @@
             <div class = "blank1"></div>
         </div>
       
-    </section>
     </div>
-    <div id = "about" name = "about">
-        <section>
+    </section>
+    <section id = "about" name = "about">
+        <div>
             <div class = "about-section">
              
                 <p> Hi I am <span class = "about-name">SANGAVI </span><br><br>UI Designer,Web and Android Developer<br>
@@ -104,8 +107,30 @@
             <div class = "Box3"></div>
           
            
-        </section>
-    </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        const sections = document.querySelectorAll("section");
+const navLi = document.querySelectorAll("nav .container ul li");
+window.addEventListener("scroll", () => {
+  let current = "";
+  sections.forEach((section) => {
+    const sectionTop = section.offsetTop;
+    const sectionHeight = section.clientHeight;
+    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  navLi.forEach((li) => {
+    li.classList.remove("active");
+    if (li.classList.contains(current)) {
+      li.classList.add("active");
+    }
+  });
+});
+    </script>
 
     
 </body>
