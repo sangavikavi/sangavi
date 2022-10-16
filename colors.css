@@ -81,7 +81,7 @@ nav {
   nav .container ul li {
     display: inline-block;
     margin:5px;
-    padding-bottom:10px;
+    padding:10px;
     
   }
   nav .container ul li a {
