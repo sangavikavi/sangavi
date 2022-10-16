@@ -71,18 +71,21 @@ header div h2{
 nav {
     position: sticky;
     top: 0;
+    margin-bottom: 1px;
     background-color: #150043;
+    height: 20px;
+    z-index: -1;
     padding-right: 30px;
   }
   nav .container {
     height: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
+
   }
   nav .container ul li {
     display: inline-block;
-    margin:5px;
-    padding:10px;
-    
+    margin: 5px;
+    padding: 10px;
   }
   nav .container ul li a {
     text-decoration: none;
