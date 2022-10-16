@@ -46,6 +46,7 @@ img{
     top: 0%;
     overflow: visible;
     background: #150043;
+    height:100px;
     
   
 }
@@ -173,7 +174,7 @@ nav .container ul li.active a {
     border: 2px solid var(--violet);
     border-radius: 35px ;
     position:absolute;
-    top: 22%;
+    top: 25%;
     left:12%;
     transform: rotate(-20deg);
     filter: blur(26px);
