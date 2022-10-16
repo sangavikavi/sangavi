@@ -101,7 +101,7 @@ nav {
     color: var(--cornflower-blue);
   }
 nav .container ul li.active a {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     color: var(--cornflower-blue);
     transition: 0.4s;
     border-bottom: 5px solid  var(--cornflower-blue);
