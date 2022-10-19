@@ -162,6 +162,7 @@ nav .container ul li.active a {
     font-weight: bold;
     color: white;
     transition: .4s;
+    margin-top:50px;
     
 }
 .btn-cv:hover{
