@@ -672,6 +672,44 @@ nav .container ul li.active a {
         filter: blur(20px);
         
     }
+     .skill1{
+        width: 300px;
+        height: 26px;
+        font-size: 12px;
+        text-align: start;
+    }
+    .lan1,.lan2{
+        font-size: 8px;
+        padding: 0%;
+    }
+    .skill2{
+        width: 200px;
+        height: 26px;
+        font-size: 12px;
+        text-align: start;
+    }
+    .skill3{
+        width: 150px;
+        height: 26px;
+        font-size: 12px;
+        text-align: start;
+
+    }
+    .skill4{
+        width: 280px;
+        height: 26px;
+        font-size: 12px;
+        text-align: start;
+    }
+    .Rect3{
+        position: absolute;
+        top: 140%;
+        left: 20%;
+        background-color: var(--cornflower-blue);
+        opacity: 0.4;
+        z-index: -1;
+    }
+        
 
 }
 
