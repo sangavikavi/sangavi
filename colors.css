@@ -710,6 +710,96 @@ nav .container ul li.active a {
         opacity: 0.4;
         z-index: -1;
     }
+    .Rect4{
+        display: none;
+    }
+    .Rect5{
+        display: none;
+    }
+    .project1,.project2,.project3,.project4{
+        height: 190px;
+        width: 120px;
+        box-shadow: 0.2em 0.2em var(--heliotrope), -0.2em -0.2em var(--electric-violet);
+
+    }
+    .photo1,.photo2,.photo3,.photo4{
+        height: 138px;
+        width: 90px;
+        margin-top: 0px;
+        position: relative;
+        left: 14px;
+        top: 16px;
+       
+    }
+    .project1{
+        position: absolute;
+        left: 15%;
+        text-align: center;
+        top: 200%;
+       
+    }
+    .project1 h4,.project2 h4,.project3 h4,.project4 h4{
+        position: relative;
+        top: 135px;
+        font-size: 10px;
+    }
+  
+    .Languages{
+        position: relative;
+        top: 118px;
+        font-size: 8px;
+    }
+
+    .project2{
+        position: absolute;
+        left: 60%;
+        top: 200%;
+
+    }
+    .project3{
+        position: absolute;
+        top:240% ;
+        left: 15%;
+        
+        
+    }
+    .project4{
+        position: absolute;
+        left: 60%;
+        top: 240%;
+
+    }
+    .blank1{
+        background-color: transparent;
+    }
+    .about-section p{
+        font-size: 20px;
+        
+    }
+    .Box1{
+        position: absolute;
+        left: 10%;
+        z-index: -1;
+        opacity: 0.2;
+    }
+    .Box2{
+        position: absolute;
+        left: 20%;
+        background-color:var(--electric-violet);
+        z-index: -1;
+        opacity: 0.2;
+    }
+    .Box3{
+        display: none;
+        
+    }
+    .contact{
+        font-size: 12px;
+        padding: 8px
+        
+    }
+     
+        
         
 
 }
