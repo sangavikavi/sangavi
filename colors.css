@@ -642,7 +642,7 @@ nav .container ul li.active a {
         background-color: transparent;
     }
     nav .container ul li a {
-        font-size: 15px;
+        font-size: 18px;
         border-radius: 0%;
         padding: 10px;
     }
@@ -664,6 +664,7 @@ nav .container ul li.active a {
         padding: 12px;
         position: relative;
         top:380px;
+        left:100px;
        
     }
     .Rect2{
