@@ -631,6 +631,49 @@ nav .container ul li.active a {
     filter: blur(26px);
     z-index:103;
 }
+@media(max-width: 480px){
+    header div h2{
+        display: none;
+    }
+    header div img{
+        display:none;
+    }
+    .header{
+        background-color: transparent;
+    }
+    nav .container ul li a {
+        font-size: 15px;
+        border-radius: 0%;
+        padding: 0%;
+        margin: 0%;
+    }
+    nav .container ul li.active a{
+        border-bottom: transparent;
+        
+        
+    }
+    .content{
+        font-size: 20px;
+        position: absolute;
+        top: 20%;
+    }
+    .title_name{
+        font-size: 35px;
+    }
+    .btn-cv{
+        font-size: 10px;
+        padding: 12px;
+        position: relative;
+        top: 280px;
+    }
+    .Rect2{
+        background-color: var(--picton-blue);
+        opacity: 0.1;
+        filter: blur(20px);
+        
+    }
+
+}
 
     
 
