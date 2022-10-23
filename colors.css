@@ -663,7 +663,7 @@ nav .container ul li.active a {
         font-size: 10px;
         padding: 12px;
         position: relative;
-        top:380px;
+        top:420px;
         left:100px;
        
     }
@@ -704,7 +704,7 @@ nav .container ul li.active a {
     }
     .Rect3{
         position: absolute;
-        top: 140%;
+        top: 240%;
         left: 20%;
         background-color: var(--cornflower-blue);
         opacity: 0.4;
