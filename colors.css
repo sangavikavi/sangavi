@@ -659,11 +659,12 @@ nav .container ul li.active a {
     .title_name{
         font-size: 35px;
     }
-    .btn-cv{
+     .btn-cv{
         font-size: 10px;
         padding: 12px;
         position: relative;
-        top: 380px;
+        top:380px;
+       
     }
     .Rect2{
         background-color: var(--picton-blue);
