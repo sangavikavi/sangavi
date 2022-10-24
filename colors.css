@@ -729,7 +729,7 @@ nav .container ul li.active a {
     }
     .Rect4{
         position: absolute;
-        top: 150%;
+        top: 120%;
         left: 1%;
         width: 262.36px;
         height: 259.75px;
@@ -738,7 +738,7 @@ nav .container ul li.active a {
     .Rect5{
         
         position: absolute;
-        top: 135%;
+        top: 105%;
         left: 30%;
         width: 262.36px;
         height: 259.75px;
@@ -809,7 +809,7 @@ nav .container ul li.active a {
     .Box1{
         position: absolute;
         left: 10%;
-        top: 335%;
+        top: 355%;
         z-index: -1;
         opacity: 0.3;
         width: 262.36px;
@@ -818,7 +818,7 @@ nav .container ul li.active a {
     .Box2{
         position: absolute;
         left: 25%;
-        top: 350%;
+        top: 370%;
         background-color:var(--turquoise-blue);
         z-index: -1;
         opacity: 0.3;
