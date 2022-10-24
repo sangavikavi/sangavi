@@ -639,12 +639,15 @@ nav .container ul li.active a {
         display:none;
     }
     .header{
-        background-color: transparent;
+        position: fixed;
+        z-index: 100;
     }
     nav .container ul li a {
         font-size: 18px;
         border-radius: 0%;
         padding: 10px;
+        
+        
     }
     nav .container ul li.active a{
         border-bottom: transparent;
@@ -652,32 +655,41 @@ nav .container ul li.active a {
         
     }
     .content{
-        font-size: 30px;
+        font-size: 28px;
         position: absolute;
         top: 20%;
     }
     .title_name{
         font-size: 35px;
     }
-     .btn-cv{
+    .btn-cv{
         font-size: 10px;
         padding: 12px;
         position: relative;
-        top:420px;
-        left:100px;
+        top:380px;
+        left: 100px;
        
     }
+    .Rect{
+        width: 262.36px;
+        height: 259.75px;
+    }
+    .Rect1{
+        width: 282.36px;
+        height: 279.75px;
+    }
     .Rect2{
-        background-color: var(--picton-blue);
-        opacity: 0.1;
-        filter: blur(20px);
+       
+        display: none;
         
     }
-     .skill1{
+    
+    .skill1{
         width: 300px;
         height: 26px;
         font-size: 12px;
         text-align: start;
+        border: 4px;
     }
     .lan1,.lan2{
         font-size: 8px;
@@ -688,12 +700,14 @@ nav .container ul li.active a {
         height: 26px;
         font-size: 12px;
         text-align: start;
+        border: 4px;
     }
     .skill3{
         width: 150px;
         height: 26px;
         font-size: 12px;
         text-align: start;
+        border: 4px;
 
     }
     .skill4{
@@ -701,6 +715,7 @@ nav .container ul li.active a {
         height: 26px;
         font-size: 12px;
         text-align: start;
+        border: 4px;
     }
     .Rect3{
         position: absolute;
@@ -709,12 +724,27 @@ nav .container ul li.active a {
         background-color: var(--cornflower-blue);
         opacity: 0.4;
         z-index: -1;
+        width: 262.36px;
+        height: 259.75px;
     }
     .Rect4{
-        display: none;
+        position: absolute;
+        top: 150%;
+        left: 1%;
+        width: 262.36px;
+        height: 259.75px;
+        z-index: -1;
     }
     .Rect5{
-        display: none;
+        
+        position: absolute;
+        top: 135%;
+        left: 30%;
+        width: 262.36px;
+        height: 259.75px;
+        z-index: -1;
+        background-color: var(--yellow);
+        opacity: 0.2;
     }
     .project1,.project2,.project3,.project4{
         height: 190px;
@@ -779,15 +809,21 @@ nav .container ul li.active a {
     .Box1{
         position: absolute;
         left: 10%;
+        top: 335%;
         z-index: -1;
-        opacity: 0.2;
+        opacity: 0.3;
+        width: 262.36px;
+        height: 259.75px;
     }
     .Box2{
         position: absolute;
-        left: 20%;
-        background-color:var(--electric-violet);
+        left: 25%;
+        top: 350%;
+        background-color:var(--turquoise-blue);
         z-index: -1;
-        opacity: 0.2;
+        opacity: 0.3;
+        width: 262.36px;
+        height: 259.75px;
     }
     .Box3{
         display: none;
@@ -800,9 +836,7 @@ nav .container ul li.active a {
     }
      
         
-        
+
+
 
 }
-
-    
-
