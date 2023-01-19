@@ -381,6 +381,14 @@ nav .container ul li.active a {
     border: 2px solid var(--blue-light);
     border-radius: 2px;
     text-align: center;
+    
+}
+.project1:hover,.project2:hover,.project3:hover,.project4:hover{
+    transition-duration: .6s;
+    transform: scale(1.10);
+    cursor: pointer;
+    transition: .6s;
+    
 }
 .photo1{
     background-image: url(./img/Todo.jpg);
