@@ -327,7 +327,7 @@ nav .container ul li.active a {
     border-radius: 35px ;
     position:absolute;
     top: 25%;
-    left:430%;
+    left:390%;
     transform: rotate(-20deg);
     opacity: 0.5;
     margin-bottom: 100px;
@@ -342,7 +342,7 @@ nav .container ul li.active a {
     border-radius: 35px ;
     position:absolute;
     top: 48%;
-    left: 395%;
+    left: 375%;
     transform: rotate(-20deg);
     opacity: 0.5;
     filter: blur(26px);
@@ -356,7 +356,7 @@ nav .container ul li.active a {
     border-radius: 35px ;
     position:absolute;
     top: 25%;
-    left: 325%;
+    left: 315%;
     transform: rotate(-20deg);
     opacity: 0.5;
     filter: blur(26px);
