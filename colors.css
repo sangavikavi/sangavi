@@ -639,7 +639,19 @@ nav .container ul li.active a {
     filter: blur(26px);
     z-index:103;
 }
-@media(max-width: 480px){
+@media screen and (max-width:360px){
+    .btn-cv{
+        font-size: 10px;
+        padding: 12px;
+        position: relative;
+        top:380px;
+        left: 100px;
+        margin-top: 100px;
+       
+    }
+ 
+}
+@media screen and (max-width: 480px){
     header div h2{
         display: none;
     }
